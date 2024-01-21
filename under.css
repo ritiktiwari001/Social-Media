@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('backu2.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: norepeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+
+.mai{
+    color:#e6401c;
+    padding: 10px;
+}
+div h1{
+    padding-left: 10px;
+}
+div ul{
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 20%;
+    margin-top: -40px;
+    display: flex;
+}
+div li{
+    padding: 10px;
+    font-family: arial;
+    color: white;
+    padding-left: 60px;
+    font-weight: bold;
+}
+div ul li a{
+    text-decoration: none;
+    color: white;
+ 
+    padding: 10px;
+}
+
+div ul li a:hover{
+    color: #e6401c;
+    border: 1px solid white;
+    border-radius: 30px 0 30px 0;
+}
+
+.search{
+    width: 330px;
+    float:right;
+    margin-right: 40px;
+    margin-top: -50px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #e6401c;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.par{
+    float: right;
+    margin: 2px;
+    padding-left: 5px;
+    visibility: hidden;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #e6401c;
+    border: 2px solid #e6401c;
+    margin-top:13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 0px;
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+.socail{
+    font-family: ;
+    padding-top: 200px;
+}
+
+.socail{
+    color: white;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+div span{
+    color: #e6401c;
+}
+
+div p{
+    padding-top: 40px;
+    font-size: 15px;
+    margin-left: 40px;
+    color: white;
+}
+.btn2{
+    margin-left: 40px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #e6401c;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.small{
+    width: 60%;
+}
+.frm{
+    width: 400px;
+    float: right;
+    background: linear-gradient(to top , rgb(0,0,0.8)50%,rgb(0,0,0.8)50%);
+    height: 500px;
+    margin-right: -350px;
+    margin-top: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    background-color: #fff;
+    box-shadow: 5px solid white ;
+}
+
+div h2{
+    width: px;
+    color: #e6401c;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+
+
+}
+
+div input{
+    margin-top: 20px;
+    height: 35px;
+    width: 240px;
+    background: transparent;
+    border-bottom: 1px solid #e6401c;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+ div .input:focus{
+    outline: none;
+ }
+
+ .btn3:focus{
+    outline: none;
+ }
+.btn3{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100px;
+    height: 40px;
+    background: #e6401c;
+    border: 2px solid #e6401c;
+    margin-top:13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 0px;
+}
+.p2 {
+    color: white;
+    padding-top: 20px;
+    font-size: 15px;
+}
+ .hre{ 
+    text-decoration: none;
+    color: #e6401c;
+}
+.fa{
+    color: white;
+    padding: 5px;
+}
+
+.frm:hover{
+    -ms-transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+    @media screen and (max-width:425px) and (min-width:0px)
+    {
+        .mai{
+            padding: 2px;
+            color: #e6401c;
+        }
+
+        div h1{
+            padding-left: 2px;
+        }
+        div ul{
+            float: right;
+            display: inline-block;
+            padding-top: 90px;
+        }
+        div li{
+            visibility: hidden;
+        }
+        .par{
+            visibility: visible;
+            padding-left: 0px;
+            padding-top: 0px;
+            margin-top: -220px;
+            margin-right: -10px;
+            cursor: pointer;
+        }
+        .par:hover div li{
+            padding: 10px;
+            font-family: arial;
+            color: white;
+            padding-left: 60px;
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+            background-color: rgba(101, 246, 101, 0.671);
+        }
+
+
+        .search{
+           visibility: hidden;
+        }
+        .srch{
+            visibility: hidden;
+        }
+        .btn{
+            visibility: hidden;
+        }
+    }
